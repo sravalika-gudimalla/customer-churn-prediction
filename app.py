@@ -260,11 +260,6 @@ if page == "Prediction":
 
             except Exception as e:
                 st.error(f"Prediction error: {e}")
-
-# -------------------------
-# Upload model/encoders
-# -------------------------
-
 # -------------------------
 # Dashboard Page
 # -------------------------
@@ -453,16 +448,3 @@ elif page == "Dashboard":
             st.info("Need both 'tenure' and 'MonthlyCharges' columns for this chart.")
 
     st.markdown("---")
-    #st.subheader("Plain-language Recommendations")
-    ##- *Reduce early churn (0–3 months):* focus onboarding: welcome calls, quick support, small incentives.  
-    #- *Target high-bill, short-tenure customers:* offer bundles or small loyalty discounts early.  
-    #- *Encourage longer contracts for risky segments:* push One-year / Two-year with perks.  
-    #- *Promote value services:* tech support and device protection often reduce churn.  
-    #- *Monitor KPIs weekly* to measure improvements.
-   # """, unsafe_allow_html=True)
-
-   ## st.dataframe(df.head(8))
-
-# -------------------------
-# About Page
-# -------------------------
